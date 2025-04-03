@@ -9,7 +9,7 @@ public class MyBeanPostProcessor implements BeanPostProcessor {
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) {
         System.out.println("Бин создается: " + beanName);
-        return bean;
+        return bean; 
     }
 
     @Override
